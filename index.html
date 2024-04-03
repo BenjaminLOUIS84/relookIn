@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.html">
+    <link rel="stylesheet" href="portfolio.html">
+    <link rel="stylesheet" href="a-propos.html">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Page d'accueil de Relook In pour présenter ses projets de rénovation.
+  Spécialisé dans la rénovation de caravannes et de camping-cars, Relook In a réalisé plusieurs projets consultables sur cette page web.
+  En savoir plus à propos de Relook In, connaître son histoire et contacter Relook In pour avoir un un conseil ou une estimation.">
+
+    <title>Page web de Relook In</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="head">
+            <div class="name">
+                <figure>
+                    <a href=""><img class="size" src="images/LOGO.png" alt="Logo de Relook In"></a>
+                </figure>
+
+            </div>
+
+            <!-- MENU BURGER -->
+            <div class="burger">
+                <a href="menu.html"><img src="./images/burger.png" class="meal" alt="Icône du menu burger"
+                        title="Menu"></a>
+            </div>
+
+        </div>
+
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="">Accueil</a>
+                    <a href="a-propos.html">Qui sommes nous</a>
+                    <a href="portfolio.html">Nos projets</a>
+                </div>
+            </nav>
+        </header>
+
+    </div>
+    <main>
+
+        <section class="accueil">
+            <a href="#ancre" class="ancre">UN PROJET ? ECRIVEZ-NOUS</a>
+        </section>
+
+        <div class="video">
+
+            <iframe class="frame" width="400" height="315"
+                src="https://www.youtube.com/embed/videoseries?si=38Juf0EchAav6m12&amp;list=PL7YmhP_oGi1a1dd-XVZ1JOlEOAqYps1vA"
+                title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Attribut de iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        -->
+
+        <section id="contact" class="section-contact"> <!--Pour créer un formulaire de contact-->
+            <h2 id="ancre"></h2>
+            <form method="post" action="mail.php">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">Votre nom</label>
+                        <input type="text" name="nom" id="nom" required pattern="^[A-Za-z '-]+$" maxlength="20"
+                            title="20 caractères max">
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Votre email</label>
+                        <input type="email" name="email" id="email" required
+                            pattern="^[A-Za-z0-9]+@{1}[A-Za-z]+\.{1}[A-Za-z]{2,}$">
+                    </div>
+                </div>
+                <label for="mess">Votre message
+                </label><br> <textarea name="message" id="mess" rows=5 required pattern="^[A-Za-z '-]+$" maxlength="500"
+                    title="500 caractères max"></textarea>
+                <input type="submit" value="ENVOYER" class="ancre">
+            </form>
+        </section>
+
+        <div id="info">
+            <div class="pied">
+
+                <figure>
+                    <a href=""><img class="size" src="images/LOGO.png" alt="Logo de Relook In"></a>
+                </figure>
+
+                <div class="reseaux">
+                    <a href="https://youtube.com/playlist?list=PL7YmhP_oGi1a1dd-XVZ1JOlEOAqYps1vA&si=Ji8G8IPS7cWKGwmF"><img
+                            class="ico" src="images/youtube-fill.svg" alt="Lien vers la playlist Relook In Youtube"
+                            title="Voir la playlist"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
