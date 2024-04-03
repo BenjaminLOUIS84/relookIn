@@ -173,7 +173,7 @@ figcaption {
 .getStart {
     background-image: url("images/relookInBenEtVal.jpg");
     filter: grayscale(50%);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -444,6 +444,11 @@ input[type='submit']:hover {
     padding: 10px;
     display: inline-block;
     font-style: italic;
+}
+
+.mot {
+    font-style: italic;
+    padding: 10px;
 }
 
 .ancre:hover {
@@ -765,7 +770,16 @@ input[type='submit']:hover {
         padding-bottom: 150px;
     }
 
+   
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
     
+        100% {
+            transform: translateX(calc(-250px * 2));
+        }
+    }
 
     /*////////////////////////////CONTACT///////////////////////////*/
 
