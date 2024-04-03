@@ -187,7 +187,7 @@ figcaption {
 /* OUTILS///////////////////////////////////////////////////////////////////// */
 
 .outils {
-    background: var(--color-primary);
+    background: black;
     color: var(--color-secondary);
     font-weight: lighter;
 }
@@ -217,7 +217,7 @@ figcaption {
     }
 
     100% {
-        transform: translateX(calc(-260px * 7));
+        transform: translateX(calc(-250px * 4));
     }
 }
 
@@ -228,17 +228,17 @@ figcaption {
     justify-content: left;
     scroll-snap-type: x mandatory;
     flex-direction: row;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .container6 img {
     position: sticky;
-    width: 15%;
-    height: 10%;
+    width: 40%;
+    /* height: 10%; */
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 
     /*Pour scroller auto*/
     animation: scroll 30s linear infinite;
