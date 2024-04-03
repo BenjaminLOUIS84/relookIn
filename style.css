@@ -125,7 +125,7 @@ nav {
 
 h1 {
     font-size: 1.5em;
-    color: var(--color-third);
+    color: white;
     padding-top: 20px;
     padding-bottom: 40px;
     font-weight: bold;
@@ -264,7 +264,7 @@ figcaption {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: var(--color-primary);
+    background: black;
 }
 
 .accueilPortfolio h1 {
@@ -570,9 +570,10 @@ input[type='submit']:hover {
         display: flex;
         flex-direction: column;
         font-family: var(--police-primary);
-        background: url("images/numerique.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: black;
+        /* background: url("images/numerique.jpg"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
     }
 
 
@@ -797,9 +798,10 @@ input[type='submit']:hover {
         display: flex;
         flex-direction: column;
         font-family: var(--police-primary);
-        background: url("images/reno2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: black;
+        /* background: url("images/reno2.jpg"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
     }
 
     a {
