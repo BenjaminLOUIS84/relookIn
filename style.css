@@ -225,6 +225,18 @@ figcaption {
     /* padding-top: 40px; */
 }
 
+
+.container6 img {
+    position: sticky;
+    width: 40%;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    
+    /*Pour scroller auto*/
+    animation: scroll 30s linear infinite;
+}
+
 .container5 {
     position: relative;
     overflow: hidden;
@@ -236,24 +248,12 @@ figcaption {
     padding-bottom: 5px;
 }
 
-.container6 img {
-    position: sticky;
-    width: 40%;
-    object-fit: cover;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-
-    /*Pour scroller auto*/
-    animation: scroll 30s linear infinite;
-}
-
 .container5 img {
     position: sticky;
     width: 20%;
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
-    /* height: 30%; */
 
     /*Pour scroller auto*/
     animation: scroll 30s linear infinite;
