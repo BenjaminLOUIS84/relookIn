@@ -249,7 +249,7 @@ figcaption {
 
 .container5 img {
     position: sticky;
-    width: 30%;
+    width: 20%;
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
