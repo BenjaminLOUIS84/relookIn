@@ -232,10 +232,12 @@ figcaption {
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
-    
+
     /*Pour scroller auto*/
     animation: scroll 30s linear infinite;
 }
+
+/* PROJETS///////////////////////////////////////////////////////////////////// */
 
 .container5 {
     position: relative;
@@ -254,11 +256,13 @@ figcaption {
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
-
-    /*Pour scroller auto*/
-    animation: scroll 30s linear infinite;
 }
 
+.renovation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /* PORTFOLIO///////////////////////////////////////////////////////////////////// */
 
@@ -771,7 +775,7 @@ input[type='submit']:hover {
     }
 
     .illustration {
-        width: 80%;
+        width: 100%;
     }
 
     .sizeS {
@@ -893,6 +897,10 @@ input[type='submit']:hover {
 
     .container5 img {
         width: 50%;
+    }
+
+    .container5 {
+        overflow: auto;
     }
 
     /*////////////////////////////FOOTER///////////////////////////*/
