@@ -206,6 +206,7 @@ figcaption {
     background: white;
     color: black;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .outils p {
@@ -939,7 +940,11 @@ input[type='submit']:hover {
 
     .videoRenoJ5 {
         width: 90%;
-    }    
+    }   
+    
+    .outils {
+        margin-bottom: 140px;
+    }
 
     /*////////////////////////////FOOTER///////////////////////////*/
 
