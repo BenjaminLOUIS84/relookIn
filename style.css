@@ -201,13 +201,6 @@ figcaption {
     width: 70%;
 }
 
-.container5 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
 /*////////////////////////////////////CSS CAROUSEL////*/
 
 /* Animation Scroller les caroussels automatiquement*/
@@ -260,6 +253,7 @@ figcaption {
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
+    /* height: 30%; */
 
     /*Pour scroller auto*/
     animation: scroll 30s linear infinite;
