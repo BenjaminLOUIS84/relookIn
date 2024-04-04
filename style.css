@@ -290,8 +290,8 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: var(--color-secondary);
     font-family: var(--police-primary);
     color: black;
