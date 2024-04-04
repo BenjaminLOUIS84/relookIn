@@ -188,8 +188,8 @@ figcaption {
 /* OUTILS///////////////////////////////////////////////////////////////////// */
 
 .outils {
-    background: black;
-    color: var(--color-secondary);
+    background: white;
+    color: black;
     font-weight: lighter;
 }
 
@@ -232,14 +232,34 @@ figcaption {
     /* padding-top: 40px; */
 }
 
+.container5 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .container6 img {
     position: sticky;
     width: 40%;
-    /* height: 10%; */
     object-fit: cover;
     flex-shrink: 0;
     scroll-snap-align: start;
-    /* padding-left: 20px; */
+
+    /*Pour scroller auto*/
+    animation: scroll 30s linear infinite;
+}
+
+.container5 img {
+    position: sticky;
+    width: 30%;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: start;
 
     /*Pour scroller auto*/
     animation: scroll 30s linear infinite;
@@ -342,42 +362,6 @@ figcaption {
 .date {
     color: var(--color-third);
     font-weight: bold;
-}
-
-/* PROJETS///////////////////////////////////////////////////////////////////// */
-
-.renovation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.clichets {
-    width: 40%;
-}
-
-.renovation .photo-hover {
-    position: absolute;
-    top: 8px;
-    bottom: 13px;
-    right: 10px;
-    left: 407px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-    color: white;
-    background: black;
-    opacity: 90%;
-    display: none;
-    transition: .5s ease-in-out;
-    width: 39.5%;
-    text-align: justify;
-}
-
-.renovation .lien-conteneur-photo {
-    position: relative;
 }
 
 /* CONTACT///////////////////////////////////////////////////////////////////// */
@@ -886,27 +870,6 @@ input[type='submit']:hover {
         filter: invert();
     }
 
-    /* PROJETS///////////////////////////////////////////////////////////////////// */
-
-    /* .renovation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .clichets {
-        width: 100%;
-    }
-
-    .renovation .photo-hover {
-        top: 0px;
-        right: 0px;
-        left: 0px;
-        bottom: 7px;
-        width: 100%;
-    } */
-
     /*////////////////////////////OUTILS///////////////////////////*/
 
     .blocPrice {
@@ -932,6 +895,10 @@ input[type='submit']:hover {
 
     .container6 img {
         width: 35%;
+    }
+
+    .container5 img {
+        width: 50%;
     }
 
     /*////////////////////////////FOOTER///////////////////////////*/
