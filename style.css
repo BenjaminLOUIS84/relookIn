@@ -190,7 +190,7 @@ figcaption {
 .outils {
     background: white;
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .outils p {
@@ -239,8 +239,8 @@ figcaption {
     justify-content: left;
     scroll-snap-type: x mandatory;
     flex-direction: row;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .container6 img {
