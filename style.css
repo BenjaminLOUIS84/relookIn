@@ -161,6 +161,7 @@ figcaption {
 
 .illustration {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .accueil figure {
@@ -269,6 +270,7 @@ figcaption {
 
 .accueilPortfolio h1 {
     padding: 10px;
+    color: white;
 }
 
 .portfolio-section-photos {
@@ -340,6 +342,42 @@ figcaption {
 .date {
     color: var(--color-third);
     font-weight: bold;
+}
+
+/* PROJETS///////////////////////////////////////////////////////////////////// */
+
+.renovation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clichets {
+    width: 40%;
+}
+
+.renovation .photo-hover {
+    position: absolute;
+    top: 8px;
+    bottom: 13px;
+    right: 10px;
+    left: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    background: black;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 39.5%;
+    text-align: justify;
+}
+
+.renovation .lien-conteneur-photo {
+    position: relative;
 }
 
 /* CONTACT///////////////////////////////////////////////////////////////////// */
@@ -771,12 +809,12 @@ input[type='submit']:hover {
         padding-bottom: 150px;
     }
 
-   
+
     @keyframes scroll {
         0% {
             transform: translateX(0);
         }
-    
+
         100% {
             transform: translateX(calc(-250px * 2));
         }
@@ -848,6 +886,25 @@ input[type='submit']:hover {
         filter: invert();
     }
 
+    /* PROJETS///////////////////////////////////////////////////////////////////// */
+
+    .renovation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clichets {
+        width: 100%;
+
+    }
+
+    .renovation .photo-hover {
+        left: 0px;
+        width: 100%;
+    }
+
     /*////////////////////////////OUTILS///////////////////////////*/
 
     .blocPrice {
@@ -864,6 +921,14 @@ input[type='submit']:hover {
     }
 
     .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 7px;
+        width: 100%;
+    }
+    
+    .renovation .photo-hover {
         top: 0px;
         right: 0px;
         left: 0px;
