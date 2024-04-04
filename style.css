@@ -888,7 +888,7 @@ input[type='submit']:hover {
 
     /* PROJETS///////////////////////////////////////////////////////////////////// */
 
-    .renovation {
+    /* .renovation {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -897,13 +897,15 @@ input[type='submit']:hover {
 
     .clichets {
         width: 100%;
-
     }
 
     .renovation .photo-hover {
+        top: 0px;
+        right: 0px;
         left: 0px;
+        bottom: 7px;
         width: 100%;
-    }
+    } */
 
     /*////////////////////////////OUTILS///////////////////////////*/
 
@@ -921,14 +923,6 @@ input[type='submit']:hover {
     }
 
     .photo-hover {
-        top: 0px;
-        right: 0px;
-        left: 0px;
-        bottom: 7px;
-        width: 100%;
-    }
-    
-    .renovation .photo-hover {
         top: 0px;
         right: 0px;
         left: 0px;
