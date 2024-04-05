@@ -299,6 +299,26 @@ figcaption {
     position: static;
 }
 
+.projet3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-secondary);
+    font-family: var(--police-primary);
+    color: black;
+    position: static;
+}
+
+.outils3 {
+    background: white;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+
 /* PORTFOLIO///////////////////////////////////////////////////////////////////// */
 
 
@@ -941,8 +961,8 @@ input[type='submit']:hover {
 
     .videoRenoJ5 {
         width: 90%;
-    }   
-    
+    }
+
     .outils {
         margin-bottom: 140px;
     }
