@@ -646,7 +646,8 @@ input[type='submit']:hover {
         display: flex;
         flex-direction: column;
         font-family: var(--police-primary);
-        background: black;
+        background: white;
+        color: black;
         /* background: url("images/numerique.jpg"); */
         /* background-size: cover; */
         /* background-repeat: no-repeat; */
@@ -657,7 +658,8 @@ input[type='submit']:hover {
         display: flex;
         justify-content: center;
         height: max-content;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary));
+        background: white;
+        /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary)); */
         /*Faire apparaitre cet élément*/
         animation: appear 1s;
         transition: ease-in-out 0.5s;
@@ -672,7 +674,7 @@ input[type='submit']:hover {
     }
 
     #menu a {
-        color: white;
+        color: black;
     }
 
     .meal {
@@ -874,7 +876,7 @@ input[type='submit']:hover {
         display: flex;
         flex-direction: column;
         font-family: var(--police-primary);
-        background: black;
+        background: white;
         /* background: url("images/reno2.jpg"); */
         /* background-size: cover; */
         /* background-repeat: no-repeat; */
@@ -889,7 +891,7 @@ input[type='submit']:hover {
         display: flex;
         justify-content: center;
         height: max-content;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary));
+        /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary)); */
         /*Faire apparaitre cet élément*/
         /* animation: appear 1s; */
         /* transition: ease-in-out 0.5s; */
@@ -904,7 +906,7 @@ input[type='submit']:hover {
     }
 
     #menu a {
-        color: white;
+        color: black;
     }
 
     .meal {
