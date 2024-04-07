@@ -399,6 +399,139 @@ figcaption {
     text-align: justify;
 }
 
+.photo-hoverImg {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/reno1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photo-hoverImg1 {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/reno2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photo-hoverImg2 {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/reno3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photo-hoverImg3 {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/autostar2IntApres.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photo-hoverImg4 {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/reno.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photo-hoverImg5 {
+    position: absolute;
+    top: 10px;
+    bottom: 13px;
+    right: 0px;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background: url("images/reno4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+
 .inf {
     display: flex;
     flex-direction: column;
@@ -409,6 +542,30 @@ figcaption {
 
 /*Pour activer l'effet au passage de la souris*/
 .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg1 {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg2 {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg3 {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg4 {
+    display: flex;
+}
+
+.lien-conteneur-photo:hover .photo-hoverImg5 {
     display: flex;
 }
 
@@ -594,7 +751,13 @@ input[type='submit']:hover {
         align-items: center;
     }
 
-    .photo-hover {
+    .photo-hover 
+    .photo-hoverImg 
+    .photo-hoverImg1 
+    .photo-hoverImg2
+    .photo-hoverImg3
+    .photo-hoverImg4
+    .photo-hoverImg5 {
         top: 0px;
         right: 0px;
         left: 266px;
@@ -645,7 +808,13 @@ input[type='submit']:hover {
         justify-content: space-between;
     }
 
-    .photo-hover {
+    .photo-hover
+    .photo-hoverImg
+    .photo-hoverImg1
+    .photo-hoverImg2
+    .photo-hoverImg3
+    .photo-hoverImg4
+    .photo-hoverImg5 {
         top: 0px;
         right: 0px;
         left: 204px;
@@ -962,7 +1131,13 @@ input[type='submit']:hover {
         width: 100%;
     }
 
-    .photo-hover {
+    .photo-hover
+    .photo-hoverImg
+    .photo-hoverImg1
+    .photo-hoverImg2
+    .photo-hoverImg3
+    .photo-hoverImg4
+    .photo-hoverImg5 {
         top: 0px;
         right: 0px;
         left: 0px;
