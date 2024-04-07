@@ -597,9 +597,13 @@ input[type='submit']:hover {
     .photo-hover {
         top: 0px;
         right: 0px;
-        left: 275px;
+        left: 266px;
         bottom: 4px;
         width: 50%;
+    }
+
+    .container5 {
+        overflow: auto;
     }
 
     .pied {
@@ -644,7 +648,7 @@ input[type='submit']:hover {
     .photo-hover {
         top: 0px;
         right: 0px;
-        left: 244px;
+        left: 204px;
         bottom: 4px;
         width: 50%;
     }
@@ -962,7 +966,7 @@ input[type='submit']:hover {
         top: 0px;
         right: 0px;
         left: 0px;
-        bottom: 7px;
+        bottom: 0px;
         width: 100%;
     }
 
