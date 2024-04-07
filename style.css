@@ -751,12 +751,54 @@ input[type='submit']:hover {
         align-items: center;
     }
 
-    .photo-hover 
-    .photo-hoverImg 
-    .photo-hoverImg1 
-    .photo-hoverImg2
-    .photo-hoverImg3
-    .photo-hoverImg4
+    .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
+    .photo-hoverImg {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
+    .photo-hoverImg1 {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
+    .photo-hoverImg2 {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
+    .photo-hoverImg3 {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
+    .photo-hoverImg4 {
+        top: 0px;
+        right: 0px;
+        left: 266px;
+        bottom: 4px;
+        width: 50%;
+    }
+
     .photo-hoverImg5 {
         top: 0px;
         right: 0px;
@@ -808,13 +850,7 @@ input[type='submit']:hover {
         justify-content: space-between;
     }
 
-    .photo-hover
-    .photo-hoverImg
-    .photo-hoverImg1
-    .photo-hoverImg2
-    .photo-hoverImg3
-    .photo-hoverImg4
-    .photo-hoverImg5 {
+    .photo-hover .photo-hoverImg .photo-hoverImg1 .photo-hoverImg2 .photo-hoverImg3 .photo-hoverImg4 .photo-hoverImg5 {
         top: 0px;
         right: 0px;
         left: 204px;
@@ -1131,12 +1167,54 @@ input[type='submit']:hover {
         width: 100%;
     }
 
-    .photo-hover
-    .photo-hoverImg
-    .photo-hoverImg1
-    .photo-hoverImg2
-    .photo-hoverImg3
-    .photo-hoverImg4
+    .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .photo-hoverImg {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .photo-hoverImg1 {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .photo-hoverImg2 {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .photo-hoverImg3 {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .photo-hoverImg4 {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
     .photo-hoverImg5 {
         top: 0px;
         right: 0px;
