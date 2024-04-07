@@ -594,6 +594,14 @@ input[type='submit']:hover {
         align-items: center;
     }
 
+    .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 275px;
+        bottom: 4px;
+        width: 50%;
+    }
+
     .pied {
         display: flex;
         justify-content: space-around;
@@ -631,6 +639,14 @@ input[type='submit']:hover {
     head {
         display: flex;
         justify-content: space-between;
+    }
+
+    .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 244px;
+        bottom: 4px;
+        width: 50%;
     }
 
     /*////////////////////////////MENU BURGER///////////////////////////*/
