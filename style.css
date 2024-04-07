@@ -883,7 +883,7 @@ input[type='submit']:hover {
     }
 
     a {
-        font-size: 1.8em;
+        font-size: 0.7em;
         padding: 1px;
     }
 
@@ -907,6 +907,7 @@ input[type='submit']:hover {
 
     #menu a {
         color: black;
+        font-size: 1.8em;
     }
 
     .meal {
